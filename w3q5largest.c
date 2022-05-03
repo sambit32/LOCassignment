@@ -19,12 +19,12 @@ void main()
 
 int func(int a[], int n)
 {
-    int t, i;
-    t = a[0];
+    int l, i;
+    l = a[0];
     for (i = 1; i <= n; i++)
     {
-        if (a[i] > t)
-            t = a[i];
+        if (a[i] > l)
+            l = a[i];
     }
-    return (t);
+    return (l);
 }
